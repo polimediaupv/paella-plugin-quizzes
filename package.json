@@ -1,8 +1,12 @@
 {
   "name": "paella-plugin-quizzes",
   "version": "1.0.0",
-  "description": "",
-  "main_tt": "index.js",
+  "license": "ECL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polimediaupv/paella-plugin-quizzes.git"
+  },
+  "description": "paella-plugin-quizzes plugin for Paella player.",
   "scripts": {
     "build": "webpack --config ./webpack.js",
     "build.dev": "webpack --config ./webpack.dev.js",
@@ -10,7 +14,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/polyfill": "^7.8.7",
