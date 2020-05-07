@@ -12,7 +12,7 @@ paella-plugin-quizzes plugin for [Paella player](https://github.com/polimediaupv
 
     $ npm run start
 
-    Go to `http://localhost:8080/player/?id=belmar-multiresolution-remote`
+Go to `http://localhost:8080/player/?id=belmar-multiresolution-remote`
     
 
 ## License
