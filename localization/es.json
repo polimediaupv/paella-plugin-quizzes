@@ -1,0 +1,13 @@
+{
+    "Continue": "Continuar",
+    "Answer": "Responder",
+    "Write your answer": "Escribe tu respuesta",
+    "ERROR": "ERROR",
+    "No question UI for type '${quizType}'": "No question UI for type '${quizType}'",
+    "Strongly agree": "Muy de acuerdo",
+    "Agree": "De acuerdo",
+    "Neither agree nor disagree": "Indeciso",
+    "Disagree": "En desacuerdo",
+    "Strongly disagree": "Muy en desacuerdo",
+    "Not applicable": "No aplicable"
+}

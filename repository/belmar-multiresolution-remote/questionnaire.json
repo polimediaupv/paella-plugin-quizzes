@@ -1,0 +1,52 @@
+{
+	"_id" : "questionnaire",
+	"quizTimes" : [
+		{
+			"time" : 2,
+			"quizzes" : [
+				{
+					"type" : "choice-question",
+					"question" : "<p>La unidad de medida de la potencia de cálculo de un microprocesador es:</p>",
+					"showFeedback" : false,
+					"showCorrect" : false,
+                    "responses" : ["Gigabyte", "Flops", "FPS", "FBS"],
+                    "feedbacks": ["Deberias de estudiar más", "Correcto", "No. Repasa el tema", "Incorrecto"],
+                    "answers":[false, true, false, false]
+				}
+			]
+        },
+		{
+			"time" : 4,
+			"quizzes" : [
+				{
+					"type" : "multiple-choice-question",
+					"question" : "<p>Cual de las siguientes son licencias de software libre segun la FSF</p>",
+					"showFeedback" : false,
+					"showCorrect" : false,
+                    "responses" : ["GPL", "BSD", "Freeware", "FBS"],
+                    "feedbacks": ["GPL es una licencia de software libre", "BSD es una licencia de software libre", "No. Repasa el tema", "Incorrecto, no existe la licencia FBS"],
+                    "answers":[true, true, false, false]
+				}
+			]
+        },
+        {
+			"time" : 5,
+			"quizzes" : [
+				{
+					"type" : "open-question",
+					"question" : "<p>¿cual es la unidad de medida de la potencia de cálculo de un microprocesador?</p>"
+				},
+				{
+					"type" : "likert-question",
+					"question" : "<p>Por favor, diga su opinion sobre la siguiente afirmación</p><p>Este sistema de preguntas funciona muy bien.</p>"
+				},
+				{
+					"type" : "message",
+					"question" : "Gracias por su colaboración. <p>Hemos terminado</p>"
+				}
+			]
+		}
+	],
+	"dontAllowSeek" : true,
+	"dontAllowAnonymousAnswers" : false
+}

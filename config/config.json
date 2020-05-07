@@ -1,0 +1,14 @@
+{
+    "data": {        
+        "dataDelegates": {            
+            "quizzes": "QuizzesDataDelegateTest"
+        }
+    },
+    "plugins": {
+        "list": {
+            "es.upv.paella.quizzesPlugin": {
+                "enabled": true
+            }
+        }
+    }
+}
